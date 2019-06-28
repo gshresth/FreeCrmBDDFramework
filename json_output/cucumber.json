@@ -1,0 +1,224 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "enter username and password to facebook.com and validate",
+        "description": "",
+        "id": "log-in-to-facebook.com;enter-username-and-password-to-facebook.com-and-validate;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3538718985,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_onLlogin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29468305,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Facebook",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 588411602,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"ganu_15@hotmail.com\" and \"pogan28505\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ganu_15@hotmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "pogan28505",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8812393565,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 102001771,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 104529641,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@RegressionTest"
+          },
+          {
+            "line": 2,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "enter username and password to facebook.com and validate",
+        "description": "",
+        "id": "log-in-to-facebook.com;enter-username-and-password-to-facebook.com-and-validate;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2251952330,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_already_onLlogin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9202702,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Facebook",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 520970453,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"ganu_15@hotmail.com\" and \"pogan28505\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ganu_15@hotmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "pogan28505",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8031812639,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 278707202,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93235509,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@RegressionTest"
+          },
+          {
+            "line": 2,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "log in to facebook.com",
+    "description": "",
+    "id": "log-in-to-facebook.com",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
