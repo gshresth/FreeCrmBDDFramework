@@ -9,10 +9,10 @@ Then user clicks on login button
 Then user is on home page
 Then close the browser
 Examples:
-		| username		    	| password     |
-		| ganu_15@hotmail.com   | pogan28505   |
-		| ganu_15@hotmail.com	| pogan28505   |
-#End2End
+		| username| password|
+		|  	  |  	    |
+		| 	  |   	    |
+#End2End 
 #Scenario: some scenario
 #Given some method
 
